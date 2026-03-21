@@ -1,3 +1,3 @@
 # Samodeus
 
-Your cozy, offline, distraction-free writing cave.
+Your cozy, distraction-free writing cave.
