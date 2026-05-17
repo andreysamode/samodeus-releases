@@ -14,7 +14,7 @@ A sacred space for the work of language — and for the thoughts you arrange bef
 
 ## Install
 
-1. Download the latest **`Samodeus-<version>-arm64.zip`** from the [Releases page](https://github.com/andreysamode/samodeus-releases/releases).
+1. Download [**`Samodeus.zip`**](https://github.com/andreysamode/samodeus-releases/releases/latest/download/Samodeus.zip) (always points to the latest release).
 2. Unzip it. You'll get **`Samodeus.app`**.
 3. **If you already have Samodeus installed**, delete the existing `Samodeus.app` from `/Applications` first. macOS Finder merges `.app` bundles instead of replacing them, which can break auto-updates.
 4. Drag `Samodeus.app` into `/Applications`.
