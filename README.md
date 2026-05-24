@@ -21,11 +21,13 @@ A sacred space for the work of language — and for the thoughts you arrange bef
 
 ### First launch
 
-Samodeus is not yet code-signed, so macOS will block it the first time you open it. The easiest fix:
+Samodeus is not yet code-signed, so macOS will block it the first time you open it. Open **Terminal** and run:
 
-- **Right-click `Samodeus.app` → Open → Open** in the confirmation dialog.
+```bash
+xattr -cr /Applications/Samodeus.app
+```
 
-That's it for most macOS versions. On macOS Sequoia (15.x) you may need an extra step: after the first blocked launch, go to **System Settings → Privacy & Security** and click **Open Anyway**.
+This clears the quarantine flag macOS attaches to downloaded files. Then double-click `Samodeus.app` normally.
 
 After the first launch the app remembers, and future updates download automatically in the background.
 
@@ -296,6 +298,6 @@ Samodeus checks for new versions automatically and downloads updates in the back
 
 ## Troubleshooting
 
-- **"Samodeus is damaged and can't be opened"** — Gatekeeper quarantine. Right-click → Open, or on Sequoia: System Settings → Privacy & Security → Open Anyway.
+- **"Samodeus is damaged and can't be opened"** — Gatekeeper quarantine. Open Terminal and run `xattr -cr /Applications/Samodeus.app`, then launch the app normally.
 - **Auto-updates seem broken after a manual install** — make sure you fully deleted the old `Samodeus.app` before copying the new one (don't let Finder merge bundles).
 - **Locked shelf, forgot password** — passwords are not recoverable. The encrypted shelf data cannot be opened without it.
