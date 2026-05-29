@@ -245,7 +245,6 @@ For when you need them: insert via the slash menu (`/table`, `/codeblock`, `/fie
 Under **Settings → Extras**:
 
 - **Stars** — animated starfield behind the editor; configure speed, density, color, and star size
-- **Starfall** — sparkles falling like rain; tunable speed, density (up to 1200 particles), and color (single tint or rainbow)
 - **Snow** — gentle snowflakes; configure speed, color, and size
 
 Each effect can be toggled and styled independently.
